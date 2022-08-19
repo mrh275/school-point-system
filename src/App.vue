@@ -1,6 +1,9 @@
 <template>
   <navbar></navbar>
-  <router-view></router-view>
+
+  <div class="main-wrapper px-6 py-4">
+    <router-view></router-view>
+  </div>
 </template>
 
 <script>
