@@ -20,7 +20,7 @@
         </div>
       </form>
 
-      <div class="not-registered text-center">
+      <div class="not-registered text-center text-white">
         <span>Didn't have any account yet? </span>
         <a href="/register" class="register-link">Register Now</a>
       </div>
