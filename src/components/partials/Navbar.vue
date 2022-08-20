@@ -40,8 +40,8 @@
       </li>
       <li class="py-5 flex-[33%]">
         <router-link to="/about" class="hover:text-[#0099ff]">
-          <i class="bx bx-log-out bx-sm"></i>
-          <p>Logout</p>
+          <i class="bx bx-log-in bx-sm"></i>
+          <p>Login</p>
         </router-link>
       </li>
     </ul>
