@@ -7,3 +7,42 @@ body {
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    /*  */
+    .btn {
+        @apply py-2 px-4 rounded-lg transition-all ease-in-out;
+    }
+
+    .btn-primary {
+        @apply bg-[#0099ff] text-white hover:bg-[#0077ff]
+    }
+    
+    .login-title {
+        @apply text-2xl font-bold text-gray-700;
+    }
+
+    .login-form {
+        @apply py-6;
+    }
+
+    .login-form-title {
+        @apply text-gray-700 text-xl font-semibold;
+    }
+
+    .form-login {
+        @apply py-4;
+    }
+
+    .form-group {
+        @apply flex flex-col pb-4;
+    }
+
+    .form-control {
+        @apply border rounded-lg border-gray-400 outline-none px-4 py-1 focus:ring focus:ring-[#0099ff] transition-all ease-in-out my-2;
+    }
+
+    .register-link {
+        @apply text-[#0088ff];
+    }
+}
