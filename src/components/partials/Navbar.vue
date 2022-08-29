@@ -1,6 +1,6 @@
 <template>
-  <nav class="z-50 w-full bg-gray-700 sm:flex sm:justify-between items-center" :class="[navbarBottom, navbarPosition]">
-    <div class="nav relative py-3 px-4 text-white flex justify-between sm:justify-start items-center">
+  <nav class="z-50 w-full sm:flex sm:justify-between items-center" :class="[navbarBottom, navbarPosition]">
+    <div class="nav relative bg-gray-700 py-3 px-4 text-white flex justify-between sm:justify-start items-center">
       <img :src="logoImage" class="w-9" alt="Logo Sekolah" />
       <h5 class="px-3 text-lg font-semibold">SMAN 1 RAWAMERTA</h5>
       <div class="cursor-pointer" @click.prevent="toggleMenu" v-if="mobileDevices">
