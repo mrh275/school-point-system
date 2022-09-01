@@ -25,22 +25,22 @@ body {
     /* End Buttons */
 
     /* Login Page */
-    .login-wrapper {
+    .login-wrapper, .register-wrapper {
         @apply md:flex justify-between;
     }
-    .login-title {
+    .login-title, .register-title {
         @apply text-2xl font-bold text-white;
     }
 
-    .login-form {
+    .login-form, .register-form {
         @apply py-6;
     }
 
-    .login-form-title {
+    .login-form-title, .register-form-title {
         @apply text-white text-xl font-semibold;
     }
 
-    .form-login {
+    .form-login, .form-register {
         @apply py-4;
     }
 
@@ -48,8 +48,18 @@ body {
         @apply flex flex-col pb-4 text-white;
     }
 
+    .form-group-register {
+        @apply flex flex-col pb-2 text-white;
+    }
+
     .form-control {
         @apply border rounded-lg border-gray-400 outline-none px-4 py-1 focus:ring focus:ring-[#0099ff] transition-all ease-in-out my-2 text-gray-700;
+    }
+    .form-control-register {
+        @apply border rounded-lg border-gray-400 outline-none px-4 py-1 focus:ring focus:ring-[#0099ff] transition-all ease-in-out mt-2 text-gray-700;
+    }
+    .form-register-button {
+        @apply mt-3;
     }
 
     .register-link {
