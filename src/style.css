@@ -53,10 +53,10 @@ body {
     }
 
     .form-control {
-        @apply border rounded-lg border-gray-400 outline-none px-4 py-1 focus:ring focus:ring-[#0099ff] transition-all ease-in-out my-2 text-gray-700;
+        @apply border rounded-lg border-gray-400 outline-none px-2 py-1 focus:ring focus:ring-[#0099ff] transition-all ease-in-out my-2 text-gray-700;
     }
     .form-control-register {
-        @apply border rounded-lg border-gray-400 outline-none px-4 py-1 focus:ring focus:ring-[#0099ff] transition-all ease-in-out mt-2 text-gray-700;
+        @apply border rounded-lg border-gray-400 outline-none px-2 py-1 focus:ring focus:ring-[#0099ff] transition-all ease-in-out mt-2 text-gray-700;
     }
     .form-register-button {
         @apply mt-3;
