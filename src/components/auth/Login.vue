@@ -3,6 +3,7 @@
     <div class="login-greetings">
       <h1 class="login-title">Welcome!</h1>
       <h1 class="login-title">Sistem Poin Siswa</h1>
+      <img src="../../assets/img/login.svg" alt="Login Splash" class="login-splash-img" />
     </div>
 
     <div class="login-form">
